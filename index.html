@@ -1,0 +1,77 @@
+<html>
+  <head>
+
+
+    
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <script defer src="assets/js/renderer.js"></script>
+
+
+    <meta charset="UTF-8" />
+    <title> BrainRotBrowser </title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+
+  </head>
+  <body>
+
+    <div class="controls">
+      <button id="home" title="Go Home">Home</button>
+    </div>
+
+
+
+    <div class="container">
+
+
+      <div class="section">
+        <div class="sectionPart">
+          <video  class="secionVideo" autoplay>
+            <source src="./assets/videos/subway.mp4" type="video/mp4">
+           Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="sectionPart sectionWithWebView">
+          <webview
+        
+          src="https://www.instagram.com"
+          class="webviewSection"
+          data-home="https://www.instagram.com"
+          ></webview>
+        </div>
+      </div>
+
+
+      <div class="webviewContainer">
+        <webview
+        src="https://google.com"
+        class="webviewMain"
+        data-home="https://www.google.com"
+        ></webview>
+      </div>
+
+
+      <div class="section">
+        <div class="sectionPart">
+          <video  class="secionVideo" autoplay>
+            <source src="./assets/videos/gta.mp4" type="video/mp4">
+           Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="sectionPart sectionWithWebView">
+          <webview
+        
+          src="https://www.tiktok.com"
+          class="webviewSection"
+          data-home="https://www.tiktok.com"
+          ></webview>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>

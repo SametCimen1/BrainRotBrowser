@@ -1,0 +1,55 @@
+/* Main */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  background-color: black;
+  display: flex;
+  overflow: hidden !important;
+  width: 100vw;
+}
+
+.webviewContainer{
+  width: 50%;
+  background-color: black;
+}
+
+.webviewSection{
+  position: relative;
+  /* background-color: black; */
+  overflow:visible;
+  object-fit: cover;
+  height: 100%;
+
+}
+
+.webviewMain{
+  position: relative;
+  width: 100% !important;
+  /* background-color: black; */
+  overflow: hidden;
+  height: 100vh;
+}
+
+.section{
+  width: 25%;
+}
+.sectionPart{
+  height: 50vh;
+  background-color: yellow;
+}
+.sectionWithWebView{
+  overflow: scroll;
+}
+.secionVideo{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+.controls{
+    position: absolute;
+    z-index: 999;
+}
